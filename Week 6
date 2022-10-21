@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <string.h>
+
+/*struct Coordi {
+  int x;
+  int y;
+};
+
+int main()
+{
+  int i, j;
+  scanf("%d %d", &i, &j);
+  struct Coordi p1;
+  struct Coordi p2 = {5,9};
+  struct Coordi p3 = {i, j};
+  struct Coordi p4 = {p2.x, p2.y};
+
+  p1.x = 2;
+  p1.y = 3;
+
+  printf("p1의 좌표( %d, %d )\n", p1.x, p1.y);
+  printf("p2의 좌표( %d, %d )\n", p2.x, p2.y);
+  printf("p3의 좌표( %d, %d )\n", p3.x, p3.y);
+  printf("p4의 좌표( %d, %d )", p4.x, p4.y);
+  
+  return 0;
+}
+
+struct Circle {
+  int x;
+  int y;
+  double r;
+};
+
+int main()
+{
+  struct Circle c1, c3, c4;
+  c1.x = 1; c1.y = 2; c1.r = 1.2;
+  printf("원: 좌표(%d %d), 반지름:%1f\n", c1.x, c1.y, c1.r);
+  struct Circle c2 = {3, 4, 3.4};
+  printf("원: 좌표(%d %d), 반지름:%1f\n", c2.x, c2.y, c2.r);
+  c3 = c1;
+  printf("원: 좌표(%d %d), 반지름:%1f", c3.x, c3.y, c3.r);
+  
+}
+
+struct Address {
+  char name[10];
+  char phone[20];
+  char home[50];
+};
+
+int main()
+{
+  struct Address man1;
+  strcpy(man1.name, "황은찬");
+  strcpy(man1.phone, "Iphone 12");
+  strcpy(man1.home, "경기도 수원시 어쩌구 저쩌구");
+  printf("%s에 사는 %s의 폰은 %s입니다.", man1.home, man1.name, man1.phone);
+  
+  struct Address man2;
+  strcpy(man2.name, "황은찬");
+  strcpy(man2.phone, "Iphone 12");
+  strcpy(man2.home, "경기도 수원시 어쩌구 저쩌구");
+  printf("%s에 사는 %s의 폰은 %s입니다.", man1.home, man1.name, man1.phone);
+}*/
